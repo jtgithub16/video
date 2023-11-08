@@ -66,7 +66,7 @@ document.querySelector("#orig").addEventListener("click", function() {
 document.querySelector("#slider").addEventListener("input", function() { //slider update
 	video.volume = this.value/100;
 	console.log(this.value)		
-	document.querySelector("#volume").textContent = (this.valuex	) + "%";
+	document.querySelector("#volume").textContent = (this.value) + "%";
 
 
 })
